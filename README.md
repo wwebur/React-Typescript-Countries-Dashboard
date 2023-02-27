@@ -45,16 +45,8 @@ Where we can filter the countries based on their population number.
 # Project Walk-Through
 
  # Start Page
- 
-
-<div align="center"><a name="menu"></a>
-
-![ScreenShot](https://github.com/AhmedTohamy01/Countries-Dashboard/blob/main/public/img/readme/start.png)
-</div>
-
 
  In this page, all the filters are set to default state, where all countries are displayed on the screen without any filtration. 
-
 
  # Search Filter
 
@@ -63,47 +55,19 @@ In this page, there are 3 types of filtration
 ***1) Search using Name Filter:***
 The user can type any search term in the search field and all countries which have this search term in its name will display on the screen, the user doesn't need to click anything to search, it's all live search.
 
- <div align="center"><a name="menu"></a>
+***2) Search using Capital Filter:***
+The user can type any search term in the search field and all countries which have this search term in its capital name will display on the screen, the user doesn't need to click anything to search, it's all live search.
 
-![ScreenShot](https://github.com/AhmedTohamy01/Countries-Dashboard/blob/main/public/img/readme/search-1.png)
-</div>
-
-***1) Search using Capital Filter:***
-The user can type any search term in the search field and all countries which have this search term in its capiatl name will display on the screen, the user doesn't need to click anything to search, it's all live search.
-
- <div align="center"><a name="menu"></a>
-
-![ScreenShot](https://github.com/AhmedTohamy01/Countries-Dashboard/blob/main/public/img/readme/search-2.png)
-</div>
-
-***1) Search using Langauge Filter:***
-The user can type any search term in the search field and all countries which have this search term in its lanaguges will display on the screen, the user doesn't need to click anything to search, it's all live search.
-
- <div align="center"><a name="menu"></a>
-
-![ScreenShot](https://github.com/AhmedTohamy01/Countries-Dashboard/blob/main/public/img/readme/search-3.png)
-</div>
-
+***3) Search using Language Filter:***
+The user can type any search term in the search field and all countries which have this search term in its languages will display on the screen, the user doesn't need to click anything to search, it's all live search.
 
  # Region Filter
 
 The user can select any region and only the countries which exist in this region will be displayed on the screen. 
 
-<div align="center"><a name="menu"></a>
-
-![ScreenShot](https://github.com/AhmedTohamy01/Countries-Dashboard/blob/main/public/img/readme/region.png)
-</div>
-
-
  # Population Filter
 
 The user can type any 2 numbers and only the countries which have population number between these 2 numbers will be displayed on the screen.
-
-
-<div align="center"><a name="menu"></a>
-
-![ScreenShot](https://github.com/AhmedTohamy01/Countries-Dashboard/blob/main/public/img/readme/pop.png)
-</div>
 
  # All Filters Combined
 
@@ -111,25 +75,13 @@ The user can combine the search, region, and population filters and use it all t
 
 Example: if the user type "al" & used the Name Checkbox & select "Europe Region" & typed "1000" - "3000000" in the population fields  , he will get all countries which has "al" in their name & exist in "Europe" & has population between "1000" - "3000000".
 
-
-<div align="center"><a name="menu"></a>
-
-![ScreenShot](https://github.com/AhmedTohamy01/Countries-Dashboard/blob/main/public/img/readme/all.png)
-</div>
-
  # Clear Filters
 
 The user can clear all filters and return it to the default state by click on one button which is "Clear Filters Button".
 
-
-<div align="center"><a name="menu"></a>
-
-![ScreenShot](https://github.com/AhmedTohamy01/Countries-Dashboard/blob/main/public/img/readme/clear.png)
-</div>
-
 # Live Demo
 
-***Take a look on the live version here:*** https://react-typescript-countries-dashboard.vercel.app/ :octocat: :heart_eyes: 
+***Take a look on the live version here:*** https://react-typescript-countries-dashboard.vercel.app/ :heart_eyes: 
 
 # Technology Used
 
@@ -153,7 +105,7 @@ To be able to use this react app locally in a development environment you will n
 
 ```cmd
 # Clone this repository
-git clone https://github.com/AhmedTohamy01/React-Typescript-Countries-Dashboard
+git clone https://github.com/code-dreamer-xyz/React-Typescript-Countries-Dashboard.git
 
 # Go into the repository
 cd React-Typescript-Countries-Dashboard
@@ -166,6 +118,5 @@ npm run dev
 
 ```
 
-4) Now you can see the project in your browser. 
-Happy Hacking!
+4) Now you can see the project in your browser.
 
